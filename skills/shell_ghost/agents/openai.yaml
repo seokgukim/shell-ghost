@@ -1,0 +1,7 @@
+interface:
+  display_name: "Shell Ghost"
+  short_description: "Route to the Shell Ghost workflow"
+  default_prompt: "Use $shell_ghost to route the harness through the Shell Ghost workflow. The only setup entry point is sourcing load_env from the repository scripts directory, then using AGENTS.md and the commands available on PATH."
+
+policy:
+  allow_implicit_invocation: true
